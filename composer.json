@@ -1,0 +1,20 @@
+{
+    "name": "treinaweb/projex",
+    "description": "Simples esqueleto para projetos MVC",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Leonardo Tumadjian",
+            "email": "tumadjian@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MeuProjeto\\": "src/" 
+        }
+    },
+    "require": {
+        "php": ">=5.6"
+    }
+}
